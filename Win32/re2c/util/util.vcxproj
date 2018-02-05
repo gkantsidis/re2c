@@ -37,6 +37,7 @@
     <ClInclude Include="..\..\..\re2c\src\util\u32lim.h" />
     <ClInclude Include="..\..\..\re2c\src\util\uniq_vector.h" />
     <ClInclude Include="..\..\..\re2c\src\util\wrap_iter.h" />
+    <ClInclude Include="..\config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\re2c\src\util\range.cc" />

@@ -19,12 +19,6 @@
     <Filter Include="Source Files\ast">
       <UniqueIdentifier>{e8af5e0e-60a9-4962-9476-ff59df91728b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\code">
-      <UniqueIdentifier>{3174a0cb-98e2-4ffb-92ca-3a908711b6eb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\code">
-      <UniqueIdentifier>{c8f46ec5-72f9-4c2f-b601-dc98dde2a3d5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\conf">
       <UniqueIdentifier>{2455847f-4611-4859-83e8-72f385182096}</UniqueIdentifier>
     </Filter>
@@ -80,27 +74,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\bootstrap\src\ast\y.tab.h">
       <Filter>Header Files\ast</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\bitmap.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\emit.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\go.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\input_api.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\label.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\output.h">
-      <Filter>Header Files\code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\code\print.h">
-      <Filter>Header Files\code</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\src\conf\msg.h">
       <Filter>Header Files\conf</Filter>
@@ -190,39 +163,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\parser.cc">
       <Filter>Source Files\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\bitmap.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\emit_action.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\emit_dfa.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\go_construct.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\go_destruct.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\go_emit.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\go_used_labels.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\input_api.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\label.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\output.cc">
-      <Filter>Source Files\code</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\code\print.cc">
-      <Filter>Source Files\code</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\src\conf\msg.cc">
       <Filter>Source Files\conf</Filter>

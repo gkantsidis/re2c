@@ -69,6 +69,9 @@
     <ClInclude Include="..\..\..\re2c\src\util\wrap_iter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\re2c\src\util\range.cc">
