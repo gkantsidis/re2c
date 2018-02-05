@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\re2c\bootstrap\src\ast\y.tab.h" />
+    <ClInclude Include="..\..\..\re2c\src\ast\ast.h" />
+    <ClInclude Include="..\..\..\re2c\src\ast\input.h" />
+    <ClInclude Include="..\..\..\re2c\src\ast\parser.h" />
+    <ClInclude Include="..\..\..\re2c\src\ast\scanner.h" />
+    <ClInclude Include="..\..\..\re2c\src\ast\unescape.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\bitmap.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\emit.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\go.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\input_api.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\label.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\output.h" />
+    <ClInclude Include="..\..\..\re2c\src\code\print.h" />
+    <ClInclude Include="..\..\..\re2c\src\compile.h" />
+    <ClInclude Include="..\..\..\re2c\src\conf\msg.h" />
+    <ClInclude Include="..\..\..\re2c\src\conf\opt.h" />
+    <ClInclude Include="..\..\..\re2c\src\conf\warn.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\empty_class_policy.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\case.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\enc.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\range_suffix.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\re.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\rule.h" />
+    <ClInclude Include="..\..\..\re2c\src\re\tag.h" />
+    <ClInclude Include="..\..\..\re2c\src\skeleton\path.h" />
+    <ClInclude Include="..\..\..\re2c\src\skeleton\skeleton.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\allocate.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\attribute.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\c99_stdint.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\counter.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\forbid_copy.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\free_list.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\hash32.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\local_increment.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\lookup.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\range.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\slab_allocator.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\smart_ptr.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\static_assert.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\string_utils.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\s_to_n32_unsafe.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\u32lim.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\uniq_vector.h" />
+    <ClInclude Include="..\..\..\re2c\src\util\wrap_iter.h" />
+    <ClInclude Include="..\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\lex.cc" />
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\lex_conf.cc" />
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\parser.cc" />
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\conf\help.cc" />
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\conf\parse_opts.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\ast.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\input.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\normalize.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\scanner.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\unescape.cc" />
+    <ClCompile Include="..\..\..\re2c\src\ast\validate.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\bitmap.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\emit_action.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\emit_dfa.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\go_construct.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\go_destruct.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\go_emit.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\go_used_labels.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\input_api.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\label.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\output.cc" />
+    <ClCompile Include="..\..\..\re2c\src\code\print.cc" />
+    <ClCompile Include="..\..\..\re2c\src\compile.cc" />
+    <ClCompile Include="..\..\..\re2c\src\conf\msg.cc" />
+    <ClCompile Include="..\..\..\re2c\src\conf\opt.cc" />
+    <ClCompile Include="..\..\..\re2c\src\conf\warn.cc" />
+    <ClCompile Include="..\..\..\re2c\src\main.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\ast_to_re.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\default_tags.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\enc.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\range_suffix.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\fixed_tags.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\nullable.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\rule.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\split_charset.cc" />
+    <ClCompile Include="..\..\..\re2c\src\re\tag.cc" />
+    <ClCompile Include="..\..\..\re2c\src\skeleton\control_flow.cc" />
+    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_code.cc" />
+    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_data.cc" />
+    <ClCompile Include="..\..\..\re2c\src\skeleton\maxpath.cc" />
+    <ClCompile Include="..\..\..\re2c\src\skeleton\skeleton.cc" />
+    <ClCompile Include="..\..\..\re2c\src\util\range.cc" />
+    <ClCompile Include="..\..\..\re2c\src\util\s_to_n32_unsafe.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\adfa\adfa.vcxproj">
+      <Project>{3f952f18-61d9-475b-a769-7a6ede40f9b0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\dfa.cfg\dfa.cfg.vcxproj">
+      <Project>{9d502c3b-fd59-40e7-9408-6c1b4a49e496}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\dfa\dfa.vcxproj">
+      <Project>{10356b46-71bf-4e2e-a930-bd8e84bdb4b5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\nfa\nfa.vcxproj">
+      <Project>{fac955a8-82ea-424c-8e25-2ff915b9bc57}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B43B90F7-D14C-4C3A-A6A5-551472E7DEF8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>re2cbootstrap</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\..\re2c;$(ProjectDir)..\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\..\re2c;$(ProjectDir)..\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\..\re2c;$(ProjectDir)..\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\..\re2c;$(ProjectDir)..\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

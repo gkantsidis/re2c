@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ast">
+      <UniqueIdentifier>{be121911-731e-47e0-9f67-e32a845d97b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ast">
+      <UniqueIdentifier>{e8af5e0e-60a9-4962-9476-ff59df91728b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\code">
+      <UniqueIdentifier>{3174a0cb-98e2-4ffb-92ca-3a908711b6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\code">
+      <UniqueIdentifier>{c8f46ec5-72f9-4c2f-b601-dc98dde2a3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conf">
+      <UniqueIdentifier>{2455847f-4611-4859-83e8-72f385182096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conf">
+      <UniqueIdentifier>{058d7d8a-157d-4c79-ae49-0c589a6c6132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\re">
+      <UniqueIdentifier>{ab5e42d3-aa02-4cb3-97ba-d49f6068f670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\re\encoding">
+      <UniqueIdentifier>{20f3d8aa-98f2-49c6-a1cd-04151bd7b057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\re">
+      <UniqueIdentifier>{05dcf41a-68fe-4259-b79d-b4ba1796cf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\re\encoding">
+      <UniqueIdentifier>{678c5035-2eee-485d-917c-129cdbb657d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\re\encoding\utf8">
+      <UniqueIdentifier>{76943f65-e6e9-4c50-8f18-8cbde232551d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\re\encoding\utf16">
+      <UniqueIdentifier>{fd609553-c4e0-468e-b47b-e89aa00197cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\re\encoding\utf8">
+      <UniqueIdentifier>{c77a948d-c5d0-46b6-94e8-4775b7bec3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\re\encoding\utf16">
+      <UniqueIdentifier>{f9c4e60d-e285-4ca1-8c0f-192160c2a11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\skeleton">
+      <UniqueIdentifier>{38515326-fed6-4b13-8f08-f3c5c1cfd49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\skeleton">
+      <UniqueIdentifier>{491d9c32-0755-45ed-bd16-1c816027c525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{262bb893-d96f-4ace-8521-9df0192c5b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{298f789f-fd93-44ce-9a5d-b9ea4439f7d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\re2c\src\ast\ast.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\ast\input.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\ast\parser.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\ast\scanner.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\ast\unescape.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\bootstrap\src\ast\y.tab.h">
+      <Filter>Header Files\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\bitmap.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\emit.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\go.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\input_api.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\label.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\output.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\code\print.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\conf\msg.h">
+      <Filter>Header Files\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\conf\opt.h">
+      <Filter>Header Files\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\conf\warn.h">
+      <Filter>Header Files\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8.h">
+      <Filter>Header Files\re\encoding\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.h">
+      <Filter>Header Files\re\encoding\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.h">
+      <Filter>Header Files\re\encoding\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16.h">
+      <Filter>Header Files\re\encoding\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.h">
+      <Filter>Header Files\re\encoding\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.h">
+      <Filter>Header Files\re\encoding\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\case.h">
+      <Filter>Header Files\re\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\enc.h">
+      <Filter>Header Files\re\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\encoding\range_suffix.h">
+      <Filter>Header Files\re\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\empty_class_policy.h">
+      <Filter>Header Files\re</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\re.h">
+      <Filter>Header Files\re</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\rule.h">
+      <Filter>Header Files\re</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\re\tag.h">
+      <Filter>Header Files\re</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\skeleton\path.h">
+      <Filter>Header Files\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\skeleton\skeleton.h">
+      <Filter>Header Files\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\allocate.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\attribute.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\c99_stdint.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\counter.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\forbid_copy.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\free_list.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\hash32.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\local_increment.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\lookup.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\range.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\s_to_n32_unsafe.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\slab_allocator.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\smart_ptr.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\static_assert.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\string_utils.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\u32lim.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\uniq_vector.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\util\wrap_iter.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\re2c\src\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\re2c\src\ast\ast.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\ast\input.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\ast\normalize.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\ast\scanner.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\ast\unescape.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\ast\validate.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\lex.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\lex_conf.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\ast\parser.cc">
+      <Filter>Source Files\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\bitmap.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\emit_action.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\emit_dfa.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\go_construct.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\go_destruct.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\go_emit.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\go_used_labels.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\input_api.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\label.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\output.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\code\print.cc">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\conf\msg.cc">
+      <Filter>Source Files\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\conf\opt.cc">
+      <Filter>Source Files\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\conf\warn.cc">
+      <Filter>Source Files\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\conf\help.cc">
+      <Filter>Source Files\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\bootstrap\src\conf\parse_opts.cc">
+      <Filter>Source Files\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8.cc">
+      <Filter>Source Files\re\encoding\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.cc">
+      <Filter>Source Files\re\encoding\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.cc">
+      <Filter>Source Files\re\encoding\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16.cc">
+      <Filter>Source Files\re\encoding\utf16</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.cc">
+      <Filter>Source Files\re\encoding\utf16</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.cc">
+      <Filter>Source Files\re\encoding\utf16</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\enc.cc">
+      <Filter>Source Files\re\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\encoding\range_suffix.cc">
+      <Filter>Source Files\re\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\ast_to_re.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\default_tags.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\fixed_tags.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\nullable.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\rule.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\split_charset.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\re\tag.cc">
+      <Filter>Source Files\re</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\skeleton\control_flow.cc">
+      <Filter>Source Files\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_code.cc">
+      <Filter>Source Files\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_data.cc">
+      <Filter>Source Files\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\skeleton\maxpath.cc">
+      <Filter>Source Files\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\skeleton\skeleton.cc">
+      <Filter>Source Files\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\util\range.cc">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\util\s_to_n32_unsafe.cc">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\compile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\re2c\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
