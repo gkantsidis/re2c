@@ -51,24 +51,6 @@
     <ClInclude Include="..\..\..\re2c\src\re\tag.h" />
     <ClInclude Include="..\..\..\re2c\src\skeleton\path.h" />
     <ClInclude Include="..\..\..\re2c\src\skeleton\skeleton.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\allocate.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\attribute.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\c99_stdint.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\counter.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\forbid_copy.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\free_list.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\hash32.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\local_increment.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\lookup.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\range.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\slab_allocator.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\smart_ptr.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\static_assert.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\string_utils.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\s_to_n32_unsafe.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\u32lim.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\uniq_vector.h" />
-    <ClInclude Include="..\..\..\re2c\src\util\wrap_iter.h" />
     <ClInclude Include="..\config.h" />
   </ItemGroup>
   <ItemGroup>
@@ -119,8 +101,6 @@
     <ClCompile Include="..\..\..\re2c\src\skeleton\generate_data.cc" />
     <ClCompile Include="..\..\..\re2c\src\skeleton\maxpath.cc" />
     <ClCompile Include="..\..\..\re2c\src\skeleton\skeleton.cc" />
-    <ClCompile Include="..\..\..\re2c\src\util\range.cc" />
-    <ClCompile Include="..\..\..\re2c\src\util\s_to_n32_unsafe.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\adfa\adfa.vcxproj">
@@ -134,6 +114,9 @@
     </ProjectReference>
     <ProjectReference Include="..\nfa\nfa.vcxproj">
       <Project>{fac955a8-82ea-424c-8e25-2ff915b9bc57}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\util\util.vcxproj">
+      <Project>{20891281-a0ba-4f1d-aa57-70039b719120}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">

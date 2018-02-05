@@ -28,3 +28,7 @@ for `adfa`, `dfa`, `dfa.cfg`, and `nfa`. These projects have source files with
 the identical names, and otherwise we would have conflicts. Separating them
 to different projects solves this problem, but may reduce the opportunities
 for global program optimizations (this should not really be a big problem).
+
+We follow the same approach of compiling to static libraries for
+`util` as well.
+The motivation is to simplify the `re2c.bootstrap` and `re2c` projects.
