@@ -49,12 +49,6 @@
     <Filter Include="Source Files\re\encoding\utf16">
       <UniqueIdentifier>{f9c4e60d-e285-4ca1-8c0f-192160c2a11e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\skeleton">
-      <UniqueIdentifier>{38515326-fed6-4b13-8f08-f3c5c1cfd49e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\skeleton">
-      <UniqueIdentifier>{491d9c32-0755-45ed-bd16-1c816027c525}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\re2c\src\ast\ast.h">
@@ -122,12 +116,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\src\re\tag.h">
       <Filter>Header Files\re</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\skeleton\path.h">
-      <Filter>Header Files\skeleton</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\skeleton\skeleton.h">
-      <Filter>Header Files\skeleton</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\src\compile.h">
       <Filter>Header Files</Filter>
@@ -223,21 +211,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\src\re\tag.cc">
       <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\skeleton\control_flow.cc">
-      <Filter>Source Files\skeleton</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_code.cc">
-      <Filter>Source Files\skeleton</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\skeleton\generate_data.cc">
-      <Filter>Source Files\skeleton</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\skeleton\maxpath.cc">
-      <Filter>Source Files\skeleton</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\skeleton\skeleton.cc">
-      <Filter>Source Files\skeleton</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\src\compile.cc">
       <Filter>Source Files</Filter>
