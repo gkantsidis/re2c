@@ -25,30 +25,6 @@
     <Filter Include="Source Files\conf">
       <UniqueIdentifier>{058d7d8a-157d-4c79-ae49-0c589a6c6132}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\re">
-      <UniqueIdentifier>{ab5e42d3-aa02-4cb3-97ba-d49f6068f670}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\re\encoding">
-      <UniqueIdentifier>{20f3d8aa-98f2-49c6-a1cd-04151bd7b057}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\re">
-      <UniqueIdentifier>{05dcf41a-68fe-4259-b79d-b4ba1796cf96}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\re\encoding">
-      <UniqueIdentifier>{678c5035-2eee-485d-917c-129cdbb657d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\re\encoding\utf8">
-      <UniqueIdentifier>{76943f65-e6e9-4c50-8f18-8cbde232551d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\re\encoding\utf16">
-      <UniqueIdentifier>{fd609553-c4e0-468e-b47b-e89aa00197cd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\re\encoding\utf8">
-      <UniqueIdentifier>{c77a948d-c5d0-46b6-94e8-4775b7bec3d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\re\encoding\utf16">
-      <UniqueIdentifier>{f9c4e60d-e285-4ca1-8c0f-192160c2a11e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\re2c\src\ast\ast.h">
@@ -77,45 +53,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\src\conf\warn.h">
       <Filter>Header Files\conf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8.h">
-      <Filter>Header Files\re\encoding\utf8</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.h">
-      <Filter>Header Files\re\encoding\utf8</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.h">
-      <Filter>Header Files\re\encoding\utf8</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16.h">
-      <Filter>Header Files\re\encoding\utf16</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.h">
-      <Filter>Header Files\re\encoding\utf16</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.h">
-      <Filter>Header Files\re\encoding\utf16</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\case.h">
-      <Filter>Header Files\re\encoding</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\enc.h">
-      <Filter>Header Files\re\encoding</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\encoding\range_suffix.h">
-      <Filter>Header Files\re\encoding</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\empty_class_policy.h">
-      <Filter>Header Files\re</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\re.h">
-      <Filter>Header Files\re</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\rule.h">
-      <Filter>Header Files\re</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\re2c\src\re\tag.h">
-      <Filter>Header Files\re</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\re2c\src\compile.h">
       <Filter>Header Files</Filter>
@@ -166,51 +103,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\bootstrap\src\conf\parse_opts.cc">
       <Filter>Source Files\conf</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8.cc">
-      <Filter>Source Files\re\encoding\utf8</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_range.cc">
-      <Filter>Source Files\re\encoding\utf8</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf8\utf8_regexp.cc">
-      <Filter>Source Files\re\encoding\utf8</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16.cc">
-      <Filter>Source Files\re\encoding\utf16</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_range.cc">
-      <Filter>Source Files\re\encoding\utf16</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\utf16\utf16_regexp.cc">
-      <Filter>Source Files\re\encoding\utf16</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\enc.cc">
-      <Filter>Source Files\re\encoding</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\encoding\range_suffix.cc">
-      <Filter>Source Files\re\encoding</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\ast_to_re.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\default_tags.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\fixed_tags.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\nullable.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\rule.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\split_charset.cc">
-      <Filter>Source Files\re</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\re2c\src\re\tag.cc">
-      <Filter>Source Files\re</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\re2c\src\compile.cc">
       <Filter>Source Files</Filter>
