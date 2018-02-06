@@ -34,6 +34,14 @@ Eventually, it would be nice to have the following as well:
 
 1. Performance comparison against the standard toolchain.
 
+1. Generate the help file `help.cc` automatically; currently we are using the
+   version from the `bootstrap` directory. The way to generate would be to first
+   produce the `help.rst` file from `help.rst.in` (in the `re2c\doc` directory),
+   then use `rst2man` (which is a python package; hence, requires python in the environment
+   and the appropriate packages), and then some string manipulation to transform the
+   text file into the `C` file. Probably, the easiest approach would be just generate
+   the output through a script, or a custom build task (the transformation looks easy).
+
 ## Notes on building
 
 Observe that there are separate projects, which compile to static libraries,
