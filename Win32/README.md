@@ -7,8 +7,12 @@ porting changes from the master repository.
 
 ## Build instructions
 
-To build, you need to restore the packages from the same directory as this file.
-This project uses the `paket` system, so you will need to run:
+The simplest thing is to run `build.bat` from this directory.
+Make sure that you are running from a prompt that has been initialized to use the
+Visual C compiler. The output will be in the `build` directory.
+
+To build manually (e.g. from Visual Studio), you need to first restore the packages from
+the same directory as this file. This project uses the `paket` system, so you will need to run:
 
 ```cmd
 .paket\paket.exe restore
